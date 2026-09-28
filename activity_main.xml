@@ -34,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Wpisz imię"
+        android:id="@+id/imie"
         android:layout_marginTop="6dp" />
 
     <TextView
@@ -47,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Wpisz nazwisko"
+        android:id="@+id/nazwisko"
         android:layout_marginTop="6dp" />
 
     <TextView
@@ -61,6 +63,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:hint="Wpisz email"
+        android:id="@+id/email"
         android:layout_marginTop="6dp" />
 
     <TextView
@@ -75,12 +78,14 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="Wpisz hasło"
+        android:id="@+id/haslo"
         android:layout_marginTop="6dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ZAREJESTRUJ"
+        android:id="@+id/przeslij"
         android:layout_marginTop="30dp" />
 
 </LinearLayout>
